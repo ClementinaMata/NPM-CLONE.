@@ -1,0 +1,280 @@
+body {
+  margin: 0px;
+}
+
+.header {
+  width:100%;
+  background: url("images/city-scape.svg") rgb(32, 101, 136);
+  overflow: hidden;
+  color: white;
+}
+
+.logo-npm{
+    width: 10%;
+    padding: 18px;
+    float: left;
+}
+.logo-npm img {
+  width: 100%;
+}
+
+#find-package{
+  float: left;
+  width: 70%;
+  padding-top: 18px;
+  border:1px;
+}
+
+#find-package > input{
+  height: 43px;
+  width: 93%;
+  border: 1px solid;
+  font-size: 20px;
+  float: left;
+  background: inherit;
+  border-color: white;
+}
+#find-package > button{
+  float: left;
+  width: 7%;
+  height: 43px;
+  border: 1px solid;
+  margin-left: -1px;
+  border-color: white;
+}
+.logo-oso{
+  float: right;
+  width: 52px;
+  margin-top: -11px;
+}
+.logo-oso img{
+  width: 100%;
+}
+.user-info{
+  float: right;
+  margin-top: 18px;
+  width: 180px;
+  padding: 12px;
+  font-size: 18px;
+  color: #ddd;
+}
+.user-info a {
+  text-decoration: none;
+  color: white;
+}
+
+.some-text{
+  float: left;
+  width: 500px;
+  margin-left: 0px;
+  padding-bottom: 50px;
+}
+.some-text > button{
+  background-color: #ee8316;
+  border: none;
+  color: white;
+  border-radius: 34px;
+  padding: 10px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+}
+.some-text h1 {
+  font-family: "Open Sans","OpenSans",sans-serif;
+  font-weight: 100;
+  font-size: 50px;
+}
+.some-text p {
+  font-family: "Open Sans","OpenSans",sans-serif;
+  font-weight: lighter;
+  font-size: large;
+}
+.sectionn{
+  background-color: rgb(39, 53, 71);
+  color: white;
+  overflow: hidden;
+  padding: 4% 0%;
+  font-family: "Open Sans","OpenSans",sans-serif;
+}
+.sectionn > .img{
+    float: left;
+    margin-left: 8%;
+    width: 40%;
+}
+.sectionn > .texto-completo{
+float: left;
+    margin-left: 3%;
+    width: 44%;
+}
+
+.texto-completo h2 {
+  font-weight: lighter;
+  font-family: "Open Sans","OpenSans",sans-serif;
+  font-size: 36px;
+  width: 100%;
+}
+.texto-completo ul {
+  font-weight: lighter;
+  font-family: "Open Sans","OpenSans",sans-serif;
+  font-size: 18px;
+}
+.boton-sign{
+  background-color: rgb(203, 56, 55);
+  border: none;
+  color: white;
+  border-radius: 40px;
+  padding: 10px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  width:90%;
+}
+.sign-up {
+  display: block;
+  width:40%;
+}
+.sign-up a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+nav {
+  background-color: #C12127;
+  color: rgba(255,255,255,0.8);
+  padding-top: 15px;
+  height: 30px;
+}
+
+nav a {
+  color: rgba(255,255,255,0.8);
+  text-decoration: none;
+}
+.top-left {
+  display: inline-block;
+}
+.top-links {
+  display: inline-block;
+  float: right;
+  padding: 0;
+  margin: 0 20px 0 0;
+}
+
+.top-links li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+
+.section-dos {
+  background: url("images/forklift.svg") rgb(39, 53, 71);
+  color: White;
+  padding-bottom: 120px;
+  margin-top: 0px;
+  margin-bottom: 20px;
+  width: 100%;
+  float: left;
+  position: relative;
+  min-height: 1px;
+  padding-left: 120px;
+  padding-right: 10px;
+  display: block;
+}
+.sect {
+  position: relative;
+  font-family: "Open Sans","OpenSans",sans-serif;
+  font-weight: 100;
+}
+.sect h2 {
+  font-weight: 100;
+  font-size: 36px;
+}
+.sect p {
+  width: 33.33333%;
+  font-weight: 100;
+  font-size: 17px;
+}
+.install-npm {
+  background-color: #6d7986;
+  border: none;
+  color: white;
+  border-radius: 34px;
+  padding: 10px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+}
+
+.section-tres-uno {
+  text-align: center;
+  font-family: "Open Sans","OpenSans",sans-serif;
+}
+.section-tres-uno h2 {
+  font-weight: 300;
+  font-size: 36px;
+}
+.section-tres-uno p {
+  font-size: 16px;
+  font-weight: lighter;
+}
+.art-uno {
+  width: 33%;
+  display: inline-block;
+  text-align: center;
+  margin:auto;
+  vertical-align: top;
+  font-family: "Open Sans","OpenSans",sans-serif;
+}
+.art-uno p {
+  width:60%;
+  margin:auto;
+  color: rgb(135, 145, 156);
+}
+.art-uno h3 {
+  font-weight: 600;
+  font-size: 20px;
+  color:rgb(83, 88, 98);
+}
+.art-uno a {
+  color: rgb(208, 74, 73);
+  text-decoration: none;
+}
+.art-dos {
+  width: 33%;
+  display: inline-block;
+  text-align: center;
+  margin:auto;
+  vertical-align: top;
+  font-family: "Open Sans","OpenSans",sans-serif;
+}
+.art-dos p {
+  width:60%;
+  margin:auto;
+  color: rgb(135, 145, 156);
+}
+.art-dos h3 {
+  font-weight: 600;
+  font-size: 20px;
+  color:rgb(83, 88, 98);
+}
+.art-tres {
+  width: 33%;
+  display: inline-block;
+  text-align: center;
+  margin:auto;
+  vertical-align: top;
+  font-family: "Open Sans","OpenSans",sans-serif;
+}
+.art-tres p {
+  width:60%;
+  margin:auto;
+  color: rgb(135, 145, 156);
+}
+.art-tres h3 {
+  font-weight: 600;
+  font-size: 20px;
+  color:rgb(83, 88, 98);
+}
